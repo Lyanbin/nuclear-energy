@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c68af30a.chunk.css",
+    "main.js": "/static/js/main.172320d3.chunk.js",
+    "main.js.map": "/static/js/main.172320d3.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8fdb0740.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8fdb0740.js.map",
+    "static/js/2.c22136ea.chunk.js": "/static/js/2.c22136ea.chunk.js",
+    "static/js/2.c22136ea.chunk.js.map": "/static/js/2.c22136ea.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.82f210f4f5a51d0e211bc84856eb2959.js": "/precache-manifest.82f210f4f5a51d0e211bc84856eb2959.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.c68af30a.chunk.css.map": "/static/css/main.c68af30a.chunk.css.map",
+    "static/media/fuck.jpg": "/static/media/fuck.f2186e77.jpg",
+    "static/media/fuckwithstick.jpg": "/static/media/fuckwithstick.11c8d5a8.jpg",
+    "static/media/really.jpg": "/static/media/really.283ce43b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8fdb0740.js",
+    "static/js/2.c22136ea.chunk.js",
+    "static/css/main.c68af30a.chunk.css",
+    "static/js/main.172320d3.chunk.js"
+  ]
+}
