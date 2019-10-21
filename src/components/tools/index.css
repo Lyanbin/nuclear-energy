@@ -4,5 +4,24 @@
   right: 0;
   bottom: 0;
   width: 240px;
+  margin-left: 60px;
   border: 1px solid #282c34;
+  z-index: 1;
+}
+.tool-img-wrap {
+  width: 50%;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+}
+.tool-img-wrap:after {
+  content: ' ';
+  display: block;
+  padding-bottom: 100%;
+}
+.tool-img {
+  position: absolute;
+  display: inline-block;
+  width: 100%;
 }

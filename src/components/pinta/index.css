@@ -1,3 +1,7 @@
 .pinta {
   height: 100vh;
+  width: calc(100vw - 480px);
+  position: fixed;
+  top: 0;
+  left: 240px;
 }

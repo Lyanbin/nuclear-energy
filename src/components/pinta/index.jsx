@@ -5,29 +5,28 @@ import { getElementSize } from '../../utils';
 import './index.css';
 
 export default class Pinta extends React.Component {
-  canvas = null;
+  state = {
+    canvas: null
+  }
 
   componentDidMount() {
     const size = getElementSize('pinta');
-    console.log(size);
-    this.canvas = new fabric.Canvas('canvas', {
-      ...size
+    const canvas = new fabric.Canvas('canvas', {
+      width: size.width - 60,
+      height: size.height
     });
-    var rect = new fabric.Rect({
-      top : 100,
-      left : 100,
-      width : 60,
-      height : 70,
-      fill : 'red'
-  });
-
-  this.canvas.add(rect);
+    this.setState({
+      canvas: canvas
+    });
   }
 
   render() {
+    const {
+      canvas
+    } = this.state;
     return (
       <section className="pinta" id="pinta">
-        <Tools />
+        <Tools canvas={canvas} />
         <canvas id="canvas" />
       </section>
     );

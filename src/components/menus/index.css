@@ -4,5 +4,13 @@
   left: 0;
   bottom: 0;
   width: 240px;
-  border: 1px solid #282c34;
+  border-right: 1px solid #aaa;
+}
+.menus-item {
+  display: block;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 16px;
+  text-decoration: none;
+  color: #000;
 }

@@ -1,0 +1,18 @@
+.head-filter {
+  display: flex;
+  border-bottom: 1px solid #000;
+}
+.head-filter-item {
+  width: 50px;
+  flex-grow: 1;
+  text-align: center;
+  line-height: 40px;
+  height: 40px;
+  border-right: 1px solid #000;
+}
+.head-filter-item:last-child {
+  border-right: none;
+}
+.head-filter-item.selected {
+  background-color: #999;
+}
