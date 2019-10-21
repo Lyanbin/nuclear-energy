@@ -5,7 +5,8 @@ import { resource } from '../../resource';
 import { fabric } from 'fabric';
 import './index.css';
 
-const headFilterItems = ['常用', '全部', '身体', '脸'];
+// const headFilterItems = ['常用', '全部', '身体', '脸'];
+const headFilterItems = ['常用'];
 
 export default function Tools(props) {
   const {
@@ -21,13 +22,15 @@ export default function Tools(props) {
   return (
     <section className="tools">
       <HeadFilter items={headFilterItems} />
-      {
-        resource && resource.length && resource.map(item => (
-          <div className="tool-img-wrap" key={item.name} onClick={addImg(item.name)}>
-            <img src={item.url} className="tool-img" alt={item.name} id={item.name} />
-          </div>
-        ))
-      }
+      <div className="tool-imgs">
+        {
+          resource && resource.length && resource.map(item => (
+            <div className="tool-img-wrap" key={item.name} onClick={addImg(item.name)}>
+              <img src={item.url} className="tool-img" alt={item.name} id={item.name} />
+            </div>
+          ))
+        }
+      </div>
       <QuickBtns canvas={canvas} />
     </section>
   );

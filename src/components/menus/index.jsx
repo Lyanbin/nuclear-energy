@@ -7,10 +7,6 @@ const nav = [
   {
     name: '制作',
     path: '/'
-  },
-  {
-    name: '换脸',
-    path: '/a'
   }
 ]
 

@@ -25,3 +25,7 @@
   display: inline-block;
   width: 100%;
 }
+.tool-imgs {
+  height: calc(100vh - 40px);
+  overflow-y: scroll;
+}

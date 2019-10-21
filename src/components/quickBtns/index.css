@@ -10,3 +10,7 @@
   cursor: pointer;
   display: block;
 }
+.quick-btns > .btn.active {
+  background: cornflowerblue;
+  color: #fff;
+}
